@@ -1,8 +1,8 @@
 --- 
 - hosts: all 
-  become: yes 
-  tasks: 
-         - name: i want to install apache
-           apt: 
+  become: yes
+  tasks:
+        - name: i want to install apache
+          apt: 
               - name: apache2
-                state: present 
+                stste: present
